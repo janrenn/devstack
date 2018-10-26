@@ -6,9 +6,11 @@ Web development boilerplate.
 
 ## Prerequisites
 
-1. Windows 10+
+1. **Windows 10+**
 2. **Git** https://git-scm.com/downloads (default Win install settings are fine)
 3. **Node.js** + NPM https://nodejs.org/en/download/ (default Win install settings are OK)
+4. **Apache 2.4+** (recommended Apache configuration) with **PHP 7.2+** (recommended PHP configuration)
+5. **MariaDB 10+** (recommended MariaDB configuration)
 
 ? Run `npm install npm -g` after Node.js installation.  
 TortoiseGit for Windows https://tortoisegit.org/ is recommended.
