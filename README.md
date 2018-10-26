@@ -1,5 +1,3 @@
-<img align="right" width="100" height="100" src="https://raw.githubusercontent.com/cyber-fox/devstack/master/resources/images/devstack-icon-200x200.png" alt="devstack">
-
 # devstack
 
 Web development boilerplate.
@@ -8,12 +6,12 @@ Web development boilerplate.
 
 ## Prerequisites
 
-1. Windows/macOS/Linux
+1. Windows 10+
 2. **Git** https://git-scm.com/downloads (default Win install settings are fine)
 3. **Node.js** + NPM https://nodejs.org/en/download/ (default Win install settings are OK)
 
-Run `npm install npm -g` after Node.js installation.  
-TortoiseGit https://tortoisegit.org/ is recommended for Windows users.
+? Run `npm install npm -g` after Node.js installation.  
+TortoiseGit for Windows https://tortoisegit.org/ is recommended.
 
 ## Installation
 
@@ -40,7 +38,6 @@ npm install --production
 
 ### Other sources
 
-* https://github.com/cyber-fox/devstack/wiki
-* https://github.com/cyber-fox/devstack/issues
+* https://github.com/janrenn/devstack/wiki
+* https://github.com/janrenn/devstack/issues
 * https://docs.npmjs.com/all
-* renner@cyberfox.cz
