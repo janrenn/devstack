@@ -1,0 +1,23 @@
+﻿
+cíle:
+standardizace
+	= kvalita
+	= efektivita
+	= zastupitelnost
+
+
+
+
+
+
+---------------------
+oddeleni FE / BE (a zaroven napojeni)
+superkoderi a spol?
+
+
+
+
+prezentace / aplikace / obsahovka
+věci mezi, např. ecommerce
+
+

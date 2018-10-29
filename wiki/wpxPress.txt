@@ -1,0 +1,60 @@
+﻿Obor
+========
+SaaS řešení
+eMarketing/SEO
+eCommerce
+Návrh aplikací
+Full stack webdev
+
+
+Technologie
+=====================
+webflow, InVision, Sketch
+Balsamiq, Moqups, draw.io, Lucidchart
+---------------------------
+Wix
+Instapage
+Squarespace
+weebly
+Shopify
+3dcart
+EKM
+---------------------------
+Shoptet
+Webnode
+FastCentrik
+ByznysWeb
+solidpixels
+---------------------------
+Contentful
+---------------------------
+WordPress 5+
+WooCommerce
+PrestaShop
+
+
+SaaS min. ceny
+============================
+Web	200 / m	2000 / r		+1h / m zdarma
+Eshop	400 / m	4000 / r		+1h / m zdarma
+---------------------------------------------
+Analýza		5000+
+Návrh		5000+
+Realizace webu	5000+		webová vizitka, landing page
+Realizace eshopu	5000+
+---------------------------------------------
+Web na klíč	10000+
+Eshop na klíč	20000+
+
+
+Konzultace
+=================
+1. hodina 		zdarma
+Analýza		2000 / h	40000 / t	120000 / m
+Návrh		2000 / h	40000 / t	120000 / m
+Kódování		1000 / h	30000 / t	  90000 / m
+
+
+
+
+//web is fluid

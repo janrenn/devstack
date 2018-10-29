@@ -1,0 +1,124 @@
+﻿Hromada dosavadních poznatků k roztřídění
+==============================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NPM global folders
+====================
+## Windows cmd/Git Bash
+```
+C:\Users\renne\AppData\roaming\npm\node_modules
+~/appdata/roaming/npm/node_modules
+```
+## WLS bash
+```
+~/usr/lib/node_modules
+```
+
+Yarn install problem
+======================
+
+Yarn does not work installed locally.  
+https://github.com/yarnpkg/yarn/issues/5349
+
+## Not working
+```
+npm install yarn --save
+yarn -v
+-bash: yarn: command not found
+```
+```
+npm install yarn --save-dev
+yarn -v
+-bash: yarn: command not found
+```
+## Working
+```
+npm install yarn --save
+./node_modules/.bin/yarn -v
+1.10.1
+```
+## Working
+```
+sudo npm install yarn -g
+yarn -v
+1.10.1
+```
+## Working
+```json
+{
+  "name": "moje",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foo": "node foo.js",
+    "foobar": "npm run foo && node bar.js",
+    "yarnversion": "yarn -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "yarn": "^1.10.1"
+  },
+  "dependencies": {}
+}
+```
+```
+npm run yarnversion
+
+> moje@1.0.0 yarnversion /mnt/c/Users/renne/Desktop/moje
+> yarn -v
+
+1.10.1
+```
+NPM does search paths for binaries:
+1. xxx
+2. xxx
+3. xxx
+
+https://youtu.be/USC3o2FLts0?t=1137
+
+----

@@ -1,0 +1,398 @@
+﻿Devstacks
+=============
+<pre>
+*    repository versioned files created during configuration and installation
+**   files initially contained in <b>devstack</b>, repository versioned
+***  files initially contained but deleted after configuration and installation
+</pre>
+LAMP/WAMP (WP native) platform
+------------------------
+```
+devstack**
+├── cert*
+├── config
+├── export
+│   ├── foxframe
+│   ├── nette
+│   └── shopware
+├── resources**
+│   ├── dotnet***
+│   │   └── config.yml***
+│   ├── js***
+│   │   └── main.js***
+│   ├── images***
+│   │   ├── common***
+│   │   └── icons***
+│   ├── php***
+│   │   ├── config.yml***
+│   │   └── index.php***
+│   ├── scss***
+│   │   └── main.scss***
+│   ├── wordpress***
+│   │   ├── config.yml***
+│   │   ├── htaccess.txt***
+│   │   ├── wp-config.php***
+│   │   └── index.php***
+│   ├── htaccess.txt***
+│   ├── install.log*
+│   └── links.yml***
+├── vendor
+├── www_root
+│   ├── app
+│   │   ├── languages
+│   │   ├── mu-plugins
+│   │   │   ├── foxpress
+│   │   │   └── loader.php
+│   │   ├── plugins
+│   │   └── themes
+│   │       ├── foxpress
+│   │       │   ├── css
+│   │       │   │   └── scss
+│   │       │   ├── images
+│   │       │   ├── js
+│   │       │   ├── functions.php
+│   │       │   └── index.php
+│   │       ├── foxpress-angular
+│   │       └── foxpress-react
+│   ├── dist
+│   ├── static
+│   ├── vendor
+│   ├── wp
+│   │   └── wp-config.php
+│   ├── .htaccess
+│   ├── apple-touch-icon.png
+│   ├── favicon.ico
+│   ├── index.php
+│   ├── robots.txt
+│   └── thumbnail.png
+├── .gitignore**
+├── composer.json**
+├── composer.lock*
+├── devstack.lock*
+├── devstack.yml**
+├── package.json**
+├── README.txt**
+└── webpack.config.js**
+```
+IIS/DOT.NET native platform
+------------------------
+```
+devstack**
+├── cert*
+├── config
+├── export
+│   └── dotnet
+├── resources**
+│   ├── dotnet***
+│   │   └── config.yml***
+│   ├── js***
+│   │   └── main.js***
+│   ├── images***
+│   │   ├── common***
+│   │   └── icons***
+│   ├── php***
+│   │   ├── config.yml***
+│   │   └── index.php***
+│   ├── scss***
+│   │   └── main.scss***
+│   ├── wordpress***
+│   │   ├── config.yml***
+│   │   ├── htaccess.txt***
+│   │   ├── wp-config.php***
+│   │   └── index.php***
+│   ├── htaccess.txt***
+│   ├── install.log*
+│   └── links.yml***
+├── vendor
+├── Web
+│   ├── Content
+│   │   ├── css
+│   │   │   └── scss
+│   │   ├── dist
+│   │   └── images
+│   ├── Scripts
+│   ├── Views
+│   │   └── Shared
+│   ├── .htaccess
+│   ├── apple-touch-icon.png
+│   ├── favicon.ico
+│   ├── index.php
+│   ├── robots.txt
+│   └── thumbnail.png
+├── .gitignore**
+├── composer.json**
+├── composer.lock*
+├── devstack.lock*
+├── devstack.yml**
+├── package.json**
+├── README.txt**
+└── webpack.config.js**
+```
+Initial content
+----------------------
+```
+devstack
+├── resources
+│   ├── dotnet
+│   │   └── config.yml
+│   ├── fonts
+│   ├── images
+│   │   ├── common
+│   │   └── icons
+│   ├── js
+│   │   ├── devstack.js
+│   │   └── main.js
+│   ├── php
+│   │   ├── config.yml
+│   │   └── index.php
+│   ├── scss
+│   │   ├── devstack.css
+│   │   └── main.scss
+│   ├── wordpress
+│   │   ├── config.yml
+│   │   ├── htaccess.txt
+│   │   ├── wp-config.php
+│   │   └── index.php
+│   ├── htaccess.txt
+│   └── links.yml
+├── .gitignore
+├── composer.json
+├── devstack.yml
+├── install.sh
+├── package.json
+├── README.txt
+└── webpack.config.js
+```
+
+Install
+-------------
+1. zkontrolovat environment, kdyžtak řvát nebo nebo navádět *
+2. zkontrolovat requirements, dtto *
+3. kouknout do configu, co je za platformu
+4. vytvořit adresářovou strukturu
+5. kouknout do configu, co je za hosta *
+6. (pokud není) vytvořit virtuál, certifikát, restartovat apache *
+7. nainstalovat balíčky, locknout konfiguraci
+8. kouknout do configu, co je za strukturu
+9. nainstalovat DB a/nebo nagenerovat soubory
+10. locknout konfiguraci
+11. nagenerovat první deploy/export
+12. vyzvat ke commitu
+13. otevřít HP
+
+#### Install locked
+--------------------------
+1. 1/dtto
+2. 2/dtto
+3. 5/dtto
+4. 6/dtto
+5. nainstalovat balíčky
+6. nagenerovat první deploy/export
+7. otevřít HP
+
+Install final
+=================
+1. zkontrolovat environment, kdyžtak řvát nebo nebo navádět
+2. zkontrolovat requirements, dtto
+3. (pokud není locked) kouknout do configu, co je za platformu (a/nebo se ptát)
+4. (pokud není locked) vytvořit adresářovou strukturu (a/nebo se ptát)
+5. kouknout do (locked) configu, co je za hosta (a/nebo se ptát)
+6. (pokud není) vytvořit virtuál, certifikát, restartovat apache
+7. nainstalovat balíčky, (pokud není locked) locknout konfiguraci
+8. (pokud není locked) kouknout do configu, co je za strukturu
+9. nainstalovat (iniciační nebo aktuální) DB (a/nebo pokud není locked) nagenerovat soubory
+10. (pokud není locked) locknout konfiguraci
+11. (pokud není locked) smáznout resources
+12. nagenerovat první deploy/export
+13. vyzvat ke commitu
+14. otevřít HP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+backend
+------------
+* custom PHP
+* WordPress / WooCommerce
+* FoxFrame 1/2
+* Nette
+* ASP.NET MVC
+* Shopware
+
+----
+
+https://codeburst.io/the-2018-web-developer-roadmap-826b1b806e8d  
+https://medium.com/@Twistacz/kouzl%C3%ADme-v-aws-s3-90a425a1c285  
+https://www.marketingminer.com/cs/blog/seo-audit-krok-za-krokem.html  
+
+----
+
+https://stackoverflow.com/questions/36788748/what-are-npm-bower-gulp-yeoman-and-grunt-good-for  
+https://stackoverflow.com/questions/35062852/npm-vs-bower-vs-browserify-vs-gulp-vs-grunt-vs-webpack  
+https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70  
+https://www.quora.com/What-are-the-differences-between-NPM-Bower-Grunt-Gulp-Webpack-Browserify-Slush-Yeoman-and-Express  
+https://medium.freecodecamp.org/making-sense-of-front-end-build-tools-3a1b3a87043b  
+https://www.toptal.com/front-end/webpack-browserify-gulp-which-is-better  
+https://stackshare.io/stackups/grunt-vs-gulp-vs-webpack  
+https://stackoverflow.com/questions/46838104/difference-between-build-tools-and-task-runners  
+
+https://www.vzhurudolu.cz/prirucka/node-instalace  
+http://devblogy.tk/detail/2813  
+
+grunt and gulp are task runners to automate everything  
+npm/bower + plugins may replace task runners
+
+* **Gulp** https://da-14.com/blog/gulp-vs-grunt-vs-webpack-comparison-build-tools-task-runners
+* Grunt Tend to outdating / Gulp.js vs Grunt.js: Code vs Configuration
+* Webpack  task runner with hot reloading of changes which allows you to forget about all JS/CSS watchers
+* Browserify Webpack and Browserify do pretty much the same job, which is processing your code to be used in a target environment
+* JSPM
+* Brunch
+* Node
+* npm  npm & bower are package managers, they call call webpack/gulp/grunt after fetching all the dependencies
+* Babel  Transpiling code for new language features
+* **Yarn** Vyhrál to tedy package.json a je asi jedno, jestli ho budete ovládat NPM nebo Yarnem / still uses npm packages under the hood
+* *Bower https://www.vzhurudolu.cz/blog/91-bower-mrtvy je totiž duplicitní k NPM*
+* NuGet
+* ESLint
+* SASS/SCSS
+* LESS
+* postcss-cssnext
+* CoffeeScript
+* 
+
+----
+
+* infrastruktura (https://www.dzejes.cz/nastroje.html, https://hackernoon.com/bf0b2ef0e22e)
+    + local
+        - GoogleApps! (G Suite + Drive + APIs = 5400 CZK / rok) draw.io! balsamiq.cloud! moqups.com! prottapp.com? 
+        - InVision? Sketch? mockplus.com? fluidui.com? webflow.com? origami.design?
+        - Vagrant? Docker/Kubernetes? nginx? Apache? Node?
+        - Local by Flywheel?
+        - Git! GitHub? (1800 CZK / rok) Gitlab? Bitbucket?
+        - Gulp? Grunt? Webpack? Node? + npm? LESS? SASS/SCSS! postcss-cssnext? CoffeeScript? Babel? Yarn? ESLint?
+        - React? Angular/TypeScript? Vue? Ember? Bootstrap4! jQuery! Zepto? Backbone? Moderniser?
+        - PHP 7.1+! MariaDB! WordPress! SQLite? Firebird? MongoDB? nette? Larevel?
+        - BrowserStack! (7600 CZK / rok) Litmus? (20700 CZK / rok) MCH Inbox Preview!
+        - MailChimp + Inbox Preview etc.! (5200 CZK / rok)
+    + staging
+    + production
+        - main: vas-hosting.cz Profi VPS [6GB/3×2GHz/60GBSSD] @wpxpress.cz (TTC Teleport/SuperHosting Malešice) 10400 CZK / rok
+        - alternate: cesky-hosting.cz VPS Extra [8GB/4x?/200GBSSD] @kic9832227.cz (ServerPark Hostivař) 11600 CZK / rok
+        - alternate: nethost.cz Flexi-VPS [6GB/4x?/60GBSSD] @neskryvame.cz (Casablanca? Vinohrady) 13800 CZK / rok
+        - backup: WEDOS webhosting NoLimit Extra @janrenner.cz (Hluboká nad Vltavou) 2400 CZK / rok
+    + (staging &) deployment
+        - Trellis? Ansible? DeployBot? Migrate DB Pro? ManageWP? digitalocean.com? DeployHQ? Codeship? CircleCI?
+        - Local by Flywheel?
+        - https://www.sitepoint.com/deploying-from-github-to-a-server/
+
+https://local.getflywheel.com/  
+https://roots.io/trellis/
+
+----
+
+TOTAL 58100 CZK / rok = 4900 / m
+
+----
+
+
+
+
+0. [konfigurace] -> run/klik -> (proměnné) -> **instalace vývojového prostředí na Win8+**(/Mac)
+1. [konfigurace] -> run/klik -> (proměnné) -> **vygenerování appky z proměnných/konstant**
+2. verzování projektu -> branches,tags <-> commit,update
+    + **WTF dělat s DB, WTF dělat s files??!!!** WPSiteSync? VersionPress?
+3. run/klik -> instalace appky na lokále
+4. (run/klik) OR (auto: commit ->) staging (+ (automatické) testování)
+5. (auto: tag -> staging -> test ->) deployment
+6. (run/klik) -> update WP + plugins -> (5)
+
+----
+
+
+
+* development -> staging -> produkce
+    + synchro dat a souborů
+    + emailový systém MailHog?
+
+instalace
+    composer, bedrock/trellis based
+    gulp? grunt? webpack?
+    docker? vagrant?
+
+config
+
+zabezpečení - firewall
+
+updatování
+
+development, profiling, debugging
+
+seo - to, co umí AIOSP a Yoast dohromady, robots.txt, integrace GSC, XML výstupy
+
+ux administrace
+
+jazykové verze
+
+překlady
+
+integrace sociálů - sdílení, sociální meta
+
+integrace mailingu
+
+integrace měření, monitoringu, ab testů...
+
+automatické testy
+
+formuláře
+
+custom typy postů
+
+custom fields
+
+optimalizace db
+
+výstupy z měření
+
+role a práva uživatelů
+
+autentifikace přes 3. stranu
+
+mini eshop
+
+plný eshop - seo compliant filtry
+
+cahe, opcache
+
+optimalizace výkonu - minifikace - CDN
+
+správa skriptů a css
+
+preprocesory
+
+API
+
+správa htaccess, CSP, headers...
+
+správa dns
