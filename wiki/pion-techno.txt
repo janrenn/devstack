@@ -1,4 +1,28 @@
-﻿foxpress -> devstack
+﻿
+EUC
+=================
+
+listopad		příprava na úvodní rozhovory, interně 13.11.
+			https://www.terveystalo.com/
+			seznámení s ShopWare
+
+?			- úvodní rozhovory -
+
+prosinec		audit w+e
+			analýza w+e
+			devstack
+			roadmap eshop
+
+leden 2019		roadmap web
+
+červen 2019		rollout web 2.0
+			rollout eshop
+
+
+
+=============================================================
+
+foxpress -> devstack
 -----------------------------
 git
 node
@@ -28,6 +52,15 @@ pion2018.janrenner.cz  //zakaz indexace - php http firewall? via ua
 pion2018.janrenner.cz/html (php-cli exporter)
 ---------------------
 smarty
+
+
+1/ analýza, přehled			2
+2/ sepsání podkladů			1	základ dokumentace, do 9.11.
+3/ prvotní wireframy -> schválení	2	do 16.11.
+4/ mockup				3	do 23.11.
+5/ jednotlivé moduly a layouty		10
+6/ napsání / napojení šablon		10
+
 
 ==============================
 https://www.vzhurudolu.cz/prirucka/pattern-lab
