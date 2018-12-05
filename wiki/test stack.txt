@@ -1,0 +1,25 @@
+Test stack
+=============
+
+iPhone 4S 16/32		3.5"	iOS 10.x	 2000 CZK
+iPhone 5S 16/64		4.0"	iOS 11.x	 4000 CZK
+iPhone 6  16/32		4.7"	iOS 12.x	 6000 CZK
+iPad			9.7"	iOS 11.x	 8000 CZK
+-----------------------------------------------------------
+						20000 CZK
+
+Samsung Galaxy J3 Duos	 5.0"	Android 5.1.x	 3000 CZK
+Lenovo TAB3		10.1"	Android 6.x	 4000 CZK
+Samsung Galaxy J5	 5.2"	Android 7.x	 3000 CZK
+Huawei Y7 Prime		 6.0"	Android 8.x	 4000 CZK
+-----------------------------------------------------------
+						14000 CZK
+
+TS 2019 opt. upgrade
+======================
+iPhone X 64+		5.8"	iOS edge	 XXXX CZK
+iPad			XXX"	iOS edge	 XXXX CZK
+-----------------------------------------------------------
+						XXXXX CZK
+
+
