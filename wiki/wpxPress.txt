@@ -27,7 +27,7 @@ ByznysWeb
 solidpixels
 ---------------------------
 Contentful
----------------------------
+---------------------------	Pagekit / Perch / Anchor / Netlify / Grav
 WordPress 5+
 WooCommerce
 PrestaShop
