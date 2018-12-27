@@ -1,0 +1,80 @@
+﻿Windows 10+/Linux (docs are for Debian GNU/Linux 9.5+)/macOS Yosemite+
+===============================================================
+at least 10GB free
+
+Install the Windows Subsystem for Linux
+=====================================
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+PowerShell
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+Install your Linux Distribution of Choice
+https://www.microsoft.com/cs-cz/p/debian-gnu-linux/9msvkqc78pk6
+sudo apt-get update
+sudo apt-get install apt-file
+sudo apt-file update
+sudo apt-get dist-upgrade
+------------------------------------------------
+(cca 0.7GB)
+
+Install Git
+==============
+Windows
+----------------
+https://git-scm.com/download/win
+(Installation defaults are OK)
+https://tortoisegit.org/download/
+(Installation defaults are OK)
+Debian
+--------------
+https://git-scm.com/download/linux
+sudo apt-get install git
+macOS
+------------
+Undocumented.
+
+Install NodeJS (incl. NPM)
+===========================
+Windows
+--------------
+https://nodejs.org/en/download/
+(Installation defaults are OK)
+Debian
+--------------
+https://github.com/creationix/nvm
+https://gist.github.com/micahgodbolt/8b9a338c8bab7bc147975646ea20826c
+touch ~/.bashrc
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+// restart bash
+nvm install --lts
+macOS
+------------
+Undocumented.
+------------------------------------------------
+(cca 0.7GB)
+
+Recommended tools
+=====================
+Your editor of choice or https://www.sublimetext.com/3
+Your diff viewer of choice or https://www.scootersoftware.com/download.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

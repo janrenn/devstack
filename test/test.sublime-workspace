@@ -1,0 +1,338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getTime"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "jquery/dist/.destination.json",
+			"settings":
+			{
+				"buffer_size": 56,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "jquery/custom/jquery.js",
+			"settings":
+			{
+				"buffer_size": 241933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html lang=\"en-US\" itemscope itemtype=\"http://schema.org/WebSite\" prefix=\"og: http://ogp.me/ns#\">\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<script nonce=\"xxxxxxxxxxxxxxxxxxxx\">\n\t\twindow.DEBUG = true;\n\t\twindow.LANG = 'en';\n\t\twindow.LOCALE = 'en_US';\n\t\twindow.JANRENN = { timer: { firstByte: (new Date()).getTime(), now: function () { return (new Date()).getTime() - JANRENN.timer.firstByte; } } };\n\t\twindow.console && window.DEBUG && console.log('Hello, call me the first byte.', (window.JANRENN ? JANRENN.timer.now() : ''));\n\t\twindow.dataLayer = window.dataLayer || [];\n\t</script>\n\n\t\t<title>test</title>\n\n\t<!-- meta -->\n\t<meta name=\"author\" content=\"CEBRE\">\n\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=auto\">\n\t<!-- https://developers.google.com/web/updates/2013/12/300ms-tap-delay-gone-away -->\n\t<!-- https://www.sitepoint.com/5-ways-prevent-300ms-click-delay-mobile-devices/ -->\n\t<!-- https://www.sitepoint.com/5-ways-prevent-300ms-click-delay-mobile-devices/ -->\n\t<meta name=\"geo.position\" content=\"50.847262;4.369813\">\n\t<meta name=\"apple-mobile-web-app-title\" content=\"CEBRE\">\n\t<meta name=\"application-name\" content=\"CEBRE\">\n\t<meta name=\"msapplication-TileImage\" content=\"https://cebre.cz/mstile-144x144.png\">\n\t<meta name=\"msapplication-TileColor\" content=\"#005c95\">\n\t<meta name=\"theme-color\" content=\"#005c95\">\n\t<meta name=\"format-detection\" content=\"telephone=no\">\n\t<meta name=\"google-site-verification\" content=\"LcSB_nWprQwSoJmV6eEIm4QD6wr3oL5eLDQcKAzmnsA\">\n\n\t<!-- link -->\n\t<link rel=\"image_src\" href=\"https://cebre.cz/static/2017/01/homepage-1200x800.jpg\">\n\t<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n\t<link rel=\"icon\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\n\t<link rel=\"icon\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\n\t<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" />\n\t<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"/apple-touch-icon-76x76.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/apple-touch-icon-120x120.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/apple-touch-icon-152x152.png\">\n\t<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon-180x180.png\">\n\t<link rel=\"mask-icon\" href=\"/safari-pinned-tab.svg\" color=\"#005c95\">\n\t<link rel=\"manifest\" href=\"/manifest.json\">\n\t<link rel=\"search\" type=\"application/opensearchdescription+xml\" title=\"CEBRE\" href=\"https://cebre.cz/opensearch.xml\">\n\n\t<!-- CSS -->\n\t<link rel=\"stylesheet\" href=\"/bundle/css/bootstrap.min.css?xxxxxxxxxxxxxxxxxxxx\"><!--tohle je cíl..., možná /bundle/css/global.css  ...-->\n\t<link rel=\"stylesheet\" href=\"/bundle/css/global.min.css?xxxxxxxxxxxxxxxxxxxx\">\n\t<link rel=\"stylesheet\" href=\"/bundle/css/components.min.css?xxxxxxxxxxxxxxxxxxxx\">\n\t<link rel=\"stylesheet\" href=\"/bundle/css/homepage.min.css?xxxxxxxxxxxxxxxxxxxx\">\n\n\t<!-- fonts -->\n\n\t<!-- Google Tag Manager -->\n\t<script nonce=\"xxxxxxxxxxxxxxxxxxxx\">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n\t})(window,document,'script','dataLayer','GTM-NNLBT9F');</script>\n\t<!-- End Google Tag Manager -->\n</head>\n<body id=\"test\" class=\"no-js\">\n\t<!-- Google Tag Manager (noscript) -->\n\t<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NNLBT9F\"\n\theight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n\t<!-- End Google Tag Manager (noscript) -->\n\t<script src=\"/bundle/js/critical.min.js?xxxxxxxxxxxxxxxxxxxx\" nonce=\"xxxxxxxxxxxxxxxxxxxx\">\n\t\twindow.console && window.DEBUG && console.log('Hello, critical JS has been parsed.', (window.JANRENN ? JANRENN.timer.now() : ''));\n\t</script>\n\n\t<div class=\"main-wrapper\" id=\"top\">\n\t\t<h1><a href=\"/\">test</a></h1>\n\t\t<p>keepin' your browsers happy</p>\n\t</div>\n\n\t<!-- JavaScript -->\n\t<script src=\"/bundle/js/jquery.min.js?xxxxxxxxxxxxxxxxxxxx\"></script>\n\t<script src=\"/bundle/js/bootstrap.min.js?xxxxxxxxxxxxxxxxxxxx\"></script>\n\t<script src=\"/bundle/js/global.min.js?xxxxxxxxxxxxxxxxxxxx\"></script>\n\t<script src=\"/bundle/js/homepage.min.js?xxxxxxxxxxxxxxxxxxxx\"></script>\n</body>\n</html>\n",
+			"file": "index.php",
+			"file_size": 4312,
+			"file_write_time": 131903278532434378,
+			"settings":
+			{
+				"buffer_size": 4313,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "jquery/custom/jquery.min.js",
+			"settings":
+			{
+				"buffer_size": 75756,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/honza/Desktop/test"
+	],
+	"file_history":
+	[
+		"/C/Users/honza/Downloads/Handel, Messiah/Haendel, Georg Friedrich - Messiah 2.cue",
+		"/C/Users/honza/Downloads/Handel, Messiah/Haendel, Georg Friedrich - Messiah 1.cue",
+		"/C/Users/honza/Desktop/test/cert/ca/test.ext",
+		"/C/Users/honza/Desktop/hosts",
+		"/C/Users/honza/Desktop/test/jquery/node_modules/jquery/dist/core.js",
+		"/C/Users/honza/Desktop/test/jquery/node_modules/jquery/dist/jquery.js",
+		"/C/Users/honza/Desktop/test/jquery/node_modules/jquery/dist/jquery.slim.js",
+		"/D/Jan Dismas Zelenka/Missa Purificationis, Litaniae (Ensemble Inégal, Viktora) 2007/info.doc",
+		"/C/Users/honza/Downloads/Missa Votiva - Luks/CD/Zelenka - Missa votiva ZWV 18.cue",
+		"/C/Users/honza/Downloads/Zelenka - I Penitenti al Sepolchro del Redentore - Luks/CD/Zelenka - I Penitenti al Sepolchro del Redentore ZWV 63.cue",
+		"/C/Users/honza/Downloads/Josephine Baker/Black Venus (2CD)/Black Venus (Disk1)/Josephine Baker - Black Venus - Disk1.cue",
+		"/C/Users/honza/Downloads/Josephine Baker/Black Venus (2CD)/Black Venus (Disk2)/Josephine Baker - Black Venus - Disk 2.cue",
+		"/D/Ten Years After/1969 Ten Years After-Ssssh/CD/Ten Years After - Ssssh.cue",
+		"/D/Virgin Prunes/1981 - A New Form of Beauty (1993 Remastered)/Virgin Prunes - A New Form Of Beauty.cue"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "jquery/dist/.destination.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 56,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "jquery/custom/jquery.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 241933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1141,
+								1141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1579,
+								1579
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "jquery/custom/jquery.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 75756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "test.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

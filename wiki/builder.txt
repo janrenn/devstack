@@ -1,0 +1,41 @@
+﻿LAMP sitebuilder
+============
+projectbulder
+-------------------
+	-> devstack
+	-> application scaffolding
+			=> git/clone
+				-> install
+				-> build/export
+				...
+				dev - config - rebuild - dev ...
+
+
+type
+	full app
+		wp
+		nette
+		php
+	front end
+		wp
+		nette
+		.net
+		vanilla
+
+mission
+	pwa/spa
+	presentation
+	application/admin
+	eshop
+
+container
+	vanilla
+		win
+		unix
+	docker
+
+components
+tools
+...
+
+=> download/clone + initial build
